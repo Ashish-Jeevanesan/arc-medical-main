@@ -1,0 +1,17 @@
+<div class="mainframe">
+<div class="login-box">
+    <img src="/assets/avatar.png" class="avatar">
+        <h1>Login Here</h1>
+            <form>
+            <label for="username"><p>Username</p></label>
+            <input type="text" id="username" [(ngModel)]="username" name="username" placeholder="Enter Username">
+            <label for="password"><p>Password</p></label>
+            <input type="password" id = "password" [(ngModel)]="password" name="password" placeholder="Enter Password">
+            <input type="submit" name="submit" (click)="login()" value="Login">
+            <a href="#">Forget Password</a>    
+            </form>
+        
+        
+        </div>
+
+    </div>
