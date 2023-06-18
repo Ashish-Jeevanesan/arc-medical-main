@@ -5,36 +5,34 @@
   margin-bottom: 35px;
 }
 
-   .container {
-    display: flex;
-    background-color: black;
-    height: 50rem;
-    width: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
-  .sidebar {
-    background: black;
-    color: white;
-    width: 200px;
-    padding: 20px;
-  }
-  
-  .sidebar ul {
-    list-style-type: none;
-    padding: 5px;
-    margin-left: 8px;
-  }
-    
-  .sidebar ul li a.active{
-    background-color: lightgray;
-    padding: 5px 10px;
-    border-radius: 5px;
-    color: black;
-  }
-.app-landing{
-  display: none;
+.container {
+  display: flex;
+  background-color: black;
+  height: 50rem;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.sidebar {
+  background: black;
+  color: white;
+  width: 200px;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 5px;
+  margin-left: 8px;
+}
+  
+.sidebar ul li a.active{
+  background-color: lightgray;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: black;
+}
+
 button{
   background-color: transparent;
   padding: none;
@@ -46,6 +44,15 @@ button{
   width: 200px;
 }
 button:hover{
+  background-color: #1864ab44;
+  border-radius: 5px;
+  padding: none;
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: #1864ab;
+  font-size: 15px;
+}
+button:focus{
   background-color: #1864ab44;
   border-radius: 5px;
   padding: none;
