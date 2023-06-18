@@ -7,10 +7,8 @@ import { Section } from '../app.component';
 })
 export class DashboardComponent {
 
-  activeSection: Section = Section.Dashboard;
-
-  changeSection(sectionname: Section): void {
-    this.activeSection = sectionname;
+  section="";
+  leftlink_select(value: string){
+    this.section= value;
   }
-  @Input() activeSession: Section = Section.Dashboard;
 }

@@ -15,9 +15,10 @@
     <nav class="sidebar">
        <p class="comp-header">arc<span style="color: green;">medical.</span></p>
       <ul>
-        <li><button><span class="material-symbols-outlined">dashboard_customize</span> Dashboard</button></li>
-        <li><button>Settings</button></li>
-        <li><button>Calendar</button></li>
+        <li><button><div class="leftlinks" (click)="(leftlink_select)"><span class="material-symbols-outlined">dashboard_customize</span>Dashboard</div></button></li>
+        <li><button><div class="leftlinks"><span class="material-symbols-outlined">tune</span>Settings</div></button></li>
+        <li><button><div class="leftlinks"><span class="material-symbols-outlined">calendar_month</span>Calender</div></button></li>
+        
       </ul>
     </nav>
     <div class="content">
