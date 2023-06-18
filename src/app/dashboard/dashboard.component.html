@@ -4,13 +4,16 @@
        <p class="comp-header">arc<span style="color: green;">medical.</span></p>
       <ul>
         <li><button><div class="leftlinks" (click)="(leftlink_select('dashboard'))"><span class="material-symbols-outlined">dashboard_customize</span>Dashboard</div></button></li>
-        <li><button><div class="leftlinks"><span class="material-symbols-outlined">tune</span>Settings</div></button></li>
-        <li><button><div class="leftlinks"><span class="material-symbols-outlined">calendar_month</span>Calender</div></button></li>
+        <li><button><div class="leftlinks" (click)="(leftlink_select('setting'))"><span class="material-symbols-outlined">tune</span>Settings</div></button></li>
+        <li><button><div class="leftlinks" (click)="(leftlink_select('calender'))"><span class="material-symbols-outlined">calendar_month</span>Calender</div></button></li>
         
       </ul>
     </nav>
     <div class="content">
       <app-landing *ngIf="section === 'dashboard'"></app-landing>
+      <app-setting *ngIf="section === 'settings'"></app-setting>
+      <app-calender *ngIf="section === 'calender'"></app-calender>
+
       <!-- <app-settings *ngIf="activeSection === Section.Settings"></app-settings>
       <app-calendar *ngIf="activeSection === Section.Calendar"></app-calendar>-->
     </div>

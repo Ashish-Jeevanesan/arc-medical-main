@@ -7,13 +7,17 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { LandingComponent } from './dashboard/landing/landing.component';
+import { SettingComponent } from './dashboard/setting/setting.component';
+import { CalenderComponent } from './dashboard/calender/calender.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     DashboardComponent,
-    LandingComponent
+    LandingComponent,
+    SettingComponent,
+    CalenderComponent
   ],
   imports: [
     BrowserModule,
