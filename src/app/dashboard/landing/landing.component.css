@@ -59,3 +59,67 @@
 .changes-need:hover{
   text-decoration: underline;
 }
+.plakcards{
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+.textincard{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.circle-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  background-color: #6A759B;
+  border-radius: 5px;
+  padding: 14px;
+  width: 200px;
+  margin-right: 23px;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #181823;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  color: #606470;
+}
+
+.label {
+  font-size: 11px;
+  padding-left: 10px;
+}
+
+.count {
+  margin-top: 5px;
+  padding-left: 10px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.graph{
+  width:400px;
+  height: 200px;
+  padding-top: 30px;
+  background-color: antiquewhite;
+}
+.graph_text{
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+.view_more{
+  background-color: green;
+  padding: 10px;
+  margin-right: 5px;
+}
