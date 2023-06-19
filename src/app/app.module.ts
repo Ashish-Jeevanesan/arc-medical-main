@@ -9,6 +9,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { LandingComponent } from './dashboard/landing/landing.component';
 import { SettingComponent } from './dashboard/setting/setting.component';
 import { CalenderComponent } from './dashboard/calender/calender.component';
+import { ChartComponent } from './dashboard/chart/chart.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CalenderComponent } from './dashboard/calender/calender.component';
     DashboardComponent,
     LandingComponent,
     SettingComponent,
-    CalenderComponent
+    CalenderComponent,
+    ChartComponent
   ],
   imports: [
     BrowserModule,

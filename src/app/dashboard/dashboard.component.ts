@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Section } from '../app.component';
+//import Chart from 'chart.js';
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
@@ -7,8 +7,9 @@ import { Section } from '../app.component';
 })
 export class DashboardComponent {
 
-  section="";
+  section="default";
   leftlink_select(value: string){
     this.section= value;
+    console.log('section value is '+this.section);
   }
 }

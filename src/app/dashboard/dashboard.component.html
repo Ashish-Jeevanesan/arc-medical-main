@@ -10,7 +10,7 @@
       </ul>
     </nav>
     <div class="content">
-      <app-landing *ngIf="section === 'dashboard'"></app-landing>
+      <app-landing *ngIf="section === 'dashboard' || section === 'default' "></app-landing>
       <app-setting *ngIf="section === 'settings'"></app-setting>
       <app-calender *ngIf="section === 'calender'"></app-calender>
 
