@@ -10,6 +10,7 @@ import { LandingComponent } from './dashboard/landing/landing.component';
 import { SettingComponent } from './dashboard/setting/setting.component';
 import { CalenderComponent } from './dashboard/calender/calender.component';
 import { ChartComponent } from './dashboard/chart/chart.component';
+import { GridComponent } from './dashboard/grid/grid.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ChartComponent } from './dashboard/chart/chart.component';
     LandingComponent,
     SettingComponent,
     CalenderComponent,
-    ChartComponent
+    ChartComponent,
+    GridComponent
   ],
   imports: [
     BrowserModule,

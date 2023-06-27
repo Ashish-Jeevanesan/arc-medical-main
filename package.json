@@ -20,6 +20,7 @@
     "@angular/router": "^16.0.0",
     "@types/chart.js": "^2.9.37",
     "chart.js": "^4.3.0",
+    "dhtmlx-suite": "^5.0.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"

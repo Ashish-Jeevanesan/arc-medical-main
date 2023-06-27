@@ -108,10 +108,13 @@
 }
 
 .graph{
-  width:400px;
-  height: 200px;
-  padding-top: 30px;
+  width:450px;
+  height: 300px;
+  padding-top: 2px;
   background-color: antiquewhite;
+  margin-top: 30px;
+  padding-left: 23px;
+  margin-right: 23px;
 }
 .graph_text{
   display: flex;
@@ -119,7 +122,19 @@
   align-items: end;
 }
 .view_more{
-  background-color: green;
+  background-color: rgba(69, 202, 47, 1);
   padding: 10px;
   margin-right: 5px;
+  margin-left: 110px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  width: 120px;
+  font-size: 11px;
+}
+.charts{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 }
